@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HEVCCoder2", "HEVCCoder2.csproj", "{FD898CA0-1C05-4FB9-AB2E-743BC56091CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD898CA0-1C05-4FB9-AB2E-743BC56091CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD898CA0-1C05-4FB9-AB2E-743BC56091CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD898CA0-1C05-4FB9-AB2E-743BC56091CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD898CA0-1C05-4FB9-AB2E-743BC56091CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {538CCB3A-691C-4164-B0E6-293D4889733F}
+	EndGlobalSection
+EndGlobal

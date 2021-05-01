@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HEVCCoder2.exe" version="1.0.1.2" publicKeyToken="a33804ccee1bb663" language="neutral" processorArchitecture="amd64" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HEVCCoder2" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="HEVCCoder2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HEVCCoder2.exe" size="40416">
+      <assemblyIdentity name="HEVCCoder2" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pNbLum/rRdavJJfywwDiLF9jBOAiQWVPc6cfOpg4HPk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ffmpeg\ffmpeg.exe" size="65644544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Eb5Oi6oJcWNGZkEqV7D5G0t0XBAeIFK2tB1MujWBBL8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ffmpeg\ffplay.exe" size="65506816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C1mJe0lpbZxuHNd2oGofdFBeAeDmgStJCpF9FeWwXSI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ffmpeg\ffprobe.exe" size="65533440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cp5KbWPtIswnofUnVmggPrTg939kUBTH5PnrRQw9NB8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HEVCCoder2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-21QG45R\xjy20" issuerKeyHash="bd985b565fbd0417e427686db0f857885a22ee6b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oRR7gQ9fen8WOD25gYV/P8X+JEVHHtIn7oflRROO7fw=</DigestValue></Reference></SignedInfo><SignatureValue>vMKA5RajJydVmq9zlhhRlo1TEaWnDc5g59ahkDsdKFEsizqdVsvaAds9X1sOi2bWPiw4h9yyCsDCjBecEKOWz9blHQbiTHts49vB+BrgcjYn5LxCYiOs7hx2mFxlQhXjTmLBQADOog1kE/7uSXxzbX4vMNS8bZNXI2jqwV62b/8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x/bEjtK13+fiTycjX8tp++r4pnOV1A8iiXIlb/qaGnMPB0PlnYR5o47ftloBKwrYjgh4W1Chq0l/0r1Fow377xf5tbyyrc2OV9+A59AcWqZVbMhlA/wsX86otEHHlwGR+VMOhgZrKyBu50/FAgegdINBAF0ksJhLzpMmM3a0PNk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fced8e1345e587ee27d21e474524fec53f7f8581b93d38167f7a5f0f817b14a1" Description="" Url=""><as:assemblyIdentity name="HEVCCoder2.exe" version="1.0.1.2" publicKeyToken="a33804ccee1bb663" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-21QG45R\xjy20</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hGEkj7UxlkgDOKqyzbvsKi3vTL8TlhmOgH4nqTwjflI=</DigestValue></Reference></SignedInfo><SignatureValue>DGHdWpoTw44nfdTl3B5LZg32Ue9ulHRhpyXL1YAtKceE6otlihOuqUW9fyh/kFb8PTAsCPpR0SzKlgV+o5zailc5oV9XgFFy0nZSUwJBQUDdOMTzncCaXOE1i24AY2aFycbh6zMjXCM0GHGuzUIxBf98hFr4bJ3tEwffbjJ2Hno=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x/bEjtK13+fiTycjX8tp++r4pnOV1A8iiXIlb/qaGnMPB0PlnYR5o47ftloBKwrYjgh4W1Chq0l/0r1Fow377xf5tbyyrc2OV9+A59AcWqZVbMhlA/wsX86otEHHlwGR+VMOhgZrKyBu50/FAgegdINBAF0ksJhLzpMmM3a0PNk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQP8LB3c8fcYZNAnVq+U1pYjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADIAMQBRAEcANAA1AFIAXAB4AGoAeQAyADAwHhcNMjEwMjAzMDE0NzE0WhcNMjIwMjAzMDc0NzE0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADIAMQBRAEcANAA1AFIAXAB4AGoAeQAyADAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMf2xI7Std/n4k8nI1/Lafvq+KZzldQPIolyJW/6mhpzDwdD5Z2EeaOO37ZaASsK2I4IeFtQoatJf9K9RaMN++8X+bW8sq3NjlffgOfQHFqmVWzIZQP8LF/OqLRBx5cBkflTDoYGaysgbudPxQIHoHSDQQBdJLCYS86TJjN2tDzZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAniai061uasL18lGL5itpaJyMtoazNtRQOObKhz7V9Z8wEwoSfpmJcfYzeO8h1kRldvqwdk1fhUDVkBqHNjYU73218gWRmqs7eJRtdq2l+kEGFRhQjzIavd6layjvtraSjM7P+LnGB6A26whP5klJJWFT5NP1jXI4qti7ls1uezI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
